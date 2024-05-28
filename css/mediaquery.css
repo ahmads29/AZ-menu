@@ -10,11 +10,19 @@
         display: block;
         z-index: 997;
     }
-}
-
-
-@media(max-width:901px){
     .shark_landing-page-img img{
-        width: 100px;
+        max-width: 300px ;
+        margin-top: 40px;
+      }
+      .shark_landing-page-p{
+        margin-top: 40px;
+      }
+      .shark_landing-page-p1{
+          font-size: 50px;
+          font-weight: 400;
+      }
+      .shark_landing-page-p2{
+        font-size: 10px;
       }
 }
+
