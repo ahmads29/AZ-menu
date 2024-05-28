@@ -4,8 +4,17 @@
 @media(max-width:900px){
     .desktop_navbar{
         display: none !important;
+        z-index: 999 !important;
     }
     .mobile_navbar{
         display: block;
+        z-index: 997;
     }
+}
+
+
+@media(max-width:901px){
+    .shark_landing-page-img img{
+        width: 100px;
+      }
 }

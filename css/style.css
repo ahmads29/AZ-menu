@@ -1,119 +1,42 @@
-/* mobile navbar css start */
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-
-.shark_nav {
-  background: rgb(255, 255, 255);
-  height: 80px;
-  width: 100%;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.411);
+/*Landing page styling start*/
+.shark_landing-page{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 90px;
 }
-
-label.logo h1 {
-  color: rgb(0, 0, 0);
+.shark_landing-page-p{
+  /* width: 30%; */
+  margin-top: 20px;
 }
-
-.shark_nav ul {
-  display: flex;
-  margin-right: 20px;
+.shark_landing-page-p1{
+    font-size: 50px;
+    font-weight: 400;
 }
-
-.shark_nav ul li {
-  margin: 0 10px;
-  display: inline-block;
+.shark_landing-page-p2{
+  font-size: 18px;
 }
-
-.shark_nav ul li a {
+.shark_text-color{
+  color: #84e219;
+}
+.shark_landing-page-img img{
+  width: 400px;
+}
+.shark_landing-page a{
   color: white;
-  font-size: 17px;
-  text-transform: uppercase;
+  background-color: #84e219;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  padding-bottom: 17px;
+  box-shadow: inset 0 0 15px #a6ff00;
 }
 
-.checkbtn {
-  color: white;
-  cursor: pointer;
-  display: none;
-}
+/* @media(max-width:901px){
+  .shark_landing-page-img img{
+      width: 100px;
+    }
+} */
 
-#check {
-  display: none;
-}
-.logo-container {
-  display: flex;
-  align-items: center;
-}
 
-@media (max-width: 900px) {
-  .checkbtn {
-    display: block;
-  }
-
-  .nav-ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #006769;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-    border-top: 1px solid #95ff1b;
-  }
-
-  .shark_nav ul {
-    flex-direction: column;
-    padding-top: 20px;
-    z-index: 99;
-  }
-
-  .shark_nav ul li {
-    display: block;
-    margin: 20px 0;
-  }
-
-  .shark_nav ul li a {
-    font-size: 20px;
-    padding: 7px 5px;
-  }
-
-  a:hover,
-  a.active {
-    background: none;
-    color: #95ff1b;
-  }
-
-  #check:checked ~ ul {
-    left: 0;
-  }
-  .logo-container {
-    order: 2;
-  }
-  .checkbtn {
-    order: 1;
-  }
-  label.logo img {
-    margin-left: 0px;
-  }
-}
-
-.shark_search-cart {
-    position: fixed;
-    top: 6px;
-    right: 80px;
-    margin: 1rem; /* Adjust the margin as needed */
-    display: flex;
-    gap: 1rem; /* Space between the icons */
-}
-/*mobile navbar css end */
+/*Landing page styling end*/
