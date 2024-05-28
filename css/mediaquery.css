@@ -1,0 +1,11 @@
+.mobile_navbar{
+    display: none;
+}
+@media(max-width:900px){
+    .desktop_navbar{
+        display: none !important;
+    }
+    .mobile_navbar{
+        display: block;
+    }
+}
