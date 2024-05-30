@@ -11,7 +11,7 @@
 }
 .shark_landing-page-p1{
     font-size: 50px;
-    font-weight: 400;
+    font-weight: bolder;
 }
 .shark_landing-page-p2{
   font-size: 18px;
@@ -31,12 +31,69 @@
   padding-bottom: 17px;
   box-shadow: inset 0 0 15px #a6ff00;
 }
-
-/* @media(max-width:901px){
-  .shark_landing-page-img img{
-      width: 100px;
-    }
-} */
-
-
 /*Landing page styling end*/
+
+/* popular categories css start */
+
+.shark_popular-cat-p1{
+  color: rgb(255, 90, 90);
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.shark_popular-cat-p2{
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 40px 0;
+}
+.shark_popular-cat-item-img{
+  background-color: #C1F1C6;
+  width: 120px;
+  border-radius: 50%;
+}
+.shark_popular-cat-item-img img{
+  width: 120px;
+  padding: 15px;
+}
+.shark_popular-cat-item-details-p1{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.shark_popular-cat-item-details-p2{
+  color: grey;
+  font-weight: 400;
+  text-align: center;
+}
+.shark_popular-cat-item{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shark_popular-cat-item-details-flex{
+  display: flex;
+  justify-content: center;
+}
+.shark_popular-cat-item{
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.082);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px;
+}
+.shark_popular-cat{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.shark_popular-cat-main{
+  margin-top: 100px;
+}
