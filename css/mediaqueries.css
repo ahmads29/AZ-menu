@@ -36,6 +36,12 @@
   .shark_landing-page{
     text-align: center;
   }
+  .shark_landing-page-img img{
+    margin-top: 50px;
+}
+.shark_landing-page-p{
+    margin-top: 10px;
+}
 }
 
 @media(max-width:460px){
