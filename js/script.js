@@ -11,3 +11,4 @@ document.getElementById('prevBtn').addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
