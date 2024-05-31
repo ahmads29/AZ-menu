@@ -68,7 +68,30 @@
   }
   
   .shark_popular-cat-p2{
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .shark_special-dishes-p2{
+    font-size: 20px;
+  }
+  .shark_special-dishes-arrows{
+    margin-top: 50px;
+  }
+}
+@media(max-width:818px){
+  .shark_our-story-items-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+  }
+  .shark_our-story-p1,.shark_our-story-p2,.shark_our-story-p3{
+    text-align: center;
+  }
+  .shark_our-story-text a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 }
 

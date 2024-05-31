@@ -19,6 +19,7 @@
     justify-content: space-between;
     position: fixed;
     top: 0%;
+    z-index: 9990;
   }
   
   label.logo h1 {
@@ -71,12 +72,14 @@
       text-align: center;
       transition: all 0.5s;
       border-top: 1px solid #95ff1b;
+      z-index: 9990;
+
     }
   
     .shark_nav ul {
       flex-direction: column;
       padding-top: 20px;
-      z-index: 99;
+      z-index: 9990;
     }
   
     .shark_nav ul li {
